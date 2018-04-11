@@ -7,7 +7,7 @@ CREATE TABLE jobs (
   creator VARCHAR(255) NOT NULL,
   job_name VARCHAR(255) NOT NULL,
   job_description TEXT NOT NULL,
-  job_category VARCHAR(255) NOT NULL,
+  job_category TEXT NOT NULL,
   -- email VARCHAR(255) NOT NULL,
   PRIMARY KEY (id)
   );

@@ -48,13 +48,13 @@ module.exports = function (sequelize, DataTypes) {
       }
     }
       //Right now we are not implementing email inside the freelancer table
-      // ,
-      // email: {
-      //   type: Datatypes.STRING,
-      //   validate: {
-      //     isEmail: true
-      //   }
-      // }
+    ,
+    email: {
+      type: Datatypes.STRING,
+      validate: {
+        isEmail: true
+      }
+    }
     
   });
 

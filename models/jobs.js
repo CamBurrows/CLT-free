@@ -27,13 +27,13 @@ module.exports = function (sequelize, DataTypes) {
       allowNull: false
     }
       //Currently trying to implement the data for email only in the user table
-      // ,
-      // email: {
-      //   type: Datatypes.STRING,
-      //   validate: {
-      //     isEmail: true
-      //   }
-      // }
+    ,
+    email: {
+      type: Datatypes.STRING,
+      validate: {
+        isEmail: true
+      }
+    }
     
   });
 
